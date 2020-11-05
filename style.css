@@ -19,7 +19,7 @@ body {
 
 header {
     width: 100%;
-    height: auto;
+    height: 100px;
     background: #000000;
     display: flex;
 }
@@ -464,6 +464,9 @@ footer {
 }
 
 @media screen and (max-width: 1010px) {
+    header {
+        height: auto;
+    }
     .topnav a {
         display: none;
     }
