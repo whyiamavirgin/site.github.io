@@ -19,6 +19,7 @@ body {
 
 header {
     width: 100%;
+    height: auto;
     background: #000000;
     display: flex;
 }
